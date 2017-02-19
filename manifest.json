@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+
+    "name": "Annotation Blocker for Youtube",
+    "description": "Remove all annotations on video",
+    "version": "1.0.0",
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "*://*.youtube.com/*"
+    ]
+}
